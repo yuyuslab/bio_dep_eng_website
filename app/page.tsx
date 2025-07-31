@@ -26,7 +26,7 @@ export default function HomePage() {
               </div>
               <div className="flex justify-center order-1 lg:order-2">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Frame%20168-xPH4VFiJLkWDBhYGa9sGA2NfPdU8HF.png"
+                  src="/seimei-eng.png"
                   alt="生命科学科英語課程ポスター"
                   width={400}
                   height={600}
