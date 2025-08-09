@@ -25,13 +25,15 @@ export default function HomePage() {
                 <div className="flex flex-wrap gap-2"></div>
               </div>
               <div className="flex justify-center order-1 lg:order-2">
-                <Image
-                  src="/seimei-eng.png"
-                  alt="生命科学科英語課程ポスター"
-                  width={400}
-                  height={600}
-                  className="rounded-lg shadow-md max-w-full h-auto w-full max-w-sm sm:max-w-md lg:max-w-lg"
-                />
+              <Image
+                src="/seimei-eng.png"
+                alt="生命科学科英語課程ポスター"
+                width={400}
+                height={600}
+                priority
+                className="rounded-lg shadow-md max-w-full h-auto w-full max-w-sm sm:max-w-md lg:max-w-lg"
+              />
+
               </div>
             </div>
           </div>
