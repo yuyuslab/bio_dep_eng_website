@@ -1,4 +1,3 @@
-import Image from "next/image"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Globe } from "lucide-react"
 import { SiteHeader } from "@/components/site-header"
@@ -25,12 +24,12 @@ export default function HomePage() {
                 <div className="flex flex-wrap gap-2"></div>
               </div>
               <div className="flex justify-center order-1 lg:order-2">
-              <Image
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
                 src="/seimei-eng.png"
                 alt="生命科学科英語課程ポスター"
-                width={400}
-                height={600}
-                priority
+                width="400"
+                height="600"
                 className="rounded-lg shadow-md max-w-full h-auto w-full max-w-sm sm:max-w-md lg:max-w-lg"
               />
 
